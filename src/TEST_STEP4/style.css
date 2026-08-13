@@ -1,0 +1,74 @@
+/* ページ全体 */
+body {
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+/* タイトル */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* フォーム全体 */
+form {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    /* 縦並びにする */
+    display: flex;
+    flex-direction: column;
+}
+
+/* ラベル */
+label {
+    display: block;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+/* 入力欄 */
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* 質問欄 */
+textarea {
+    height: 100px;
+}
+
+/* セレクトボックス */
+select {
+    display: block;
+}
+
+/* 送信ボタン */
+button {
+    display: block;
+    width: fit-content;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #0069d9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* ボタンにマウスを乗せたとき */
+button:hover {
+    background-color: #0053ba;
+}
