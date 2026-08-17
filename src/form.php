@@ -16,7 +16,7 @@
 <input type="text" id="name" name="name">
 <!-- 年齢 -->
 <label for="age">年齢:</label>
-<input type="number" id="age" name="age" min="1" max="150">
+<input type="number" id="age" name="age" min="0" max="150">
 <!-- 電話番号 -->
 <label for="phone">電話番号:</label>
 <input type="tel" id="phone" name="phone">
